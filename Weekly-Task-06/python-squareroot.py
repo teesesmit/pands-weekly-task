@@ -26,7 +26,7 @@ def main():
     if number > 0:
             # Approximate the square root using the custom sqrt function from input num
             approx_root = sqrt(number)
-            print(f"Approximate square root of {number} is: {approx_root}")
+            print(f"Approximate square root of {number} is: {approx_root:.1f}")
     else:
             print("Error: Please enter a positive number.")
 
