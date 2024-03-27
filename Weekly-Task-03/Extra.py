@@ -1,12 +1,13 @@
 #Weekly Task 03 - Extra
-#any lenght account number 
-#outputs account number with first 6 digits as X's and only last 4 digits showing
+#any lenght account number and replace the first 6 numers with X
 #Author Theresa Smyth
 
 #enter account number 
 accountno = input ("Please enter your account number: ") 
 
 # allows any lenght account no. and replace the first 6 numers with X
-hidden_number = 'X' * 6 + accountno[6:]
+#remove len
+#https://www.educative.io/answers/how-to-mask-a-credit-card-number-with-asterisks-in-python#
+masked_char = 'X' * 6 + accountno[6:]
 
-print('Account Number:', hidden_number)
+print('Account Number:', masked_char)
