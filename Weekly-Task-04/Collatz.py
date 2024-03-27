@@ -11,6 +11,7 @@
 number = int(input("enter an integer:"))
 
 # if the number is divisible by 2 it's even, then divide by 2
+#https://realpython.com/python-conditional-statements/
 if (number % 2) == 0:
     print(f"{number} is an even number your answer is:", (number / 2))
     #if number not divisible by 2 it's odd, then multipy by 3 and add 1
