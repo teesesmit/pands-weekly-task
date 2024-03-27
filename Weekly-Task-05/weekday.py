@@ -6,14 +6,15 @@
 # Author Theresa Smyth
 
 import datetime
-
+#https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python
 #What is the current date today
-current_date = datetime.datetime.now()
+current_date = datetime.datetime.today()
 
-#Day of the week labes from weekday
+#Day of the week lables from weekday
 day_of_week = current_date.weekday() 
 
 #Is today a Monday(0) - Friday(<5)
+#https://pynative.com/python-get-the-day-of-week/#h-check-if-a-date-is-a-weekday-or-weekend
 if day_of_week < 5:
     print("Yes, unfortunately today is a weekday.")
 else: 
