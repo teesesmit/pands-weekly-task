@@ -21,7 +21,8 @@ def sqrt(number):
         count += 1
 
         root = 0.5 * (x + (number / x))
-
+        
+        #https://www.w3schools.com/python/ref_func_abs.asp
         if abs(root - x) < 1:
                 break
             #update root
